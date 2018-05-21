@@ -21,9 +21,7 @@ Add the points of the following conditions which constitute diffusive mass-trans
 16 points: Motion of air around a room due to the presence of a fan
 
 \subsection*{Solution}
-(Enter as an integer)
-
-\hash{a}{b786dd}
+\solint{a}{d16142}
 
 
 
@@ -41,11 +39,9 @@ Add the points of the following conditions which constitute diffusive mass-trans
 Consider a box of volume \SI{1}{\cubic\meter}. The box contains 1 mole of gas. At time $t=0$, all the gas molecules in the left 1/4 of the box are labeled $A$. As time goes to $t=\infty$, what will the density of the molecules labeled $A$ be in the right half of the box? Note that there is only 1 species of gas in the box.
 
 \subsection*{Solution}
-Units: Moles / $m^3$
+(Units: Moles / $m^3$)
 
-(enter to two decimal places)
-
-\hash{b}{13c60a}
+\soltwodp{b}{e1f90a}
 
 
 
@@ -108,15 +104,20 @@ Assuming ideal gases, calculate the following:
 
 \subsection*{Solutions}
 
-1. (enter as a decimal to 3 decimal places) \hash{c}{117398}
+\textbf{1.}\\
+\solthreedp{c}{bf4ce8}
 
-2. (enter as a decimal to 3 decimal places) \hash{d}{6801da}
+\textbf{2.}\\
+\solthreedp{d}{d34e49}
 
-3. (enter as a decimal to 3 decimal places in units of g/mol) \hash{e}{e3a65e}
+\textbf{3.} (Units: g/mol)\\
+\soltwodp{e}{6b58f1}
 
-4. \SI{1397}{\kg\per\cubic\meter}
+\textbf{4.}\\
+\SI{1397}{\kg\per\cubic\meter}
 
-5. (enter as an integer in units of kPa) \hash{f}{f54c28}
+\textbf{5.} (Units: kPa)\\
+\solint{f}{4d1d94}
 
 
 
@@ -136,8 +137,8 @@ Estimate the mass diffusivity of the following gases in air at 350 K and 1 atm p
 2. Hydrogen
 
 \subsection*{Solutions}
-1. \SI{0.36e-4}{\square\meter\per\second}\\
-2. \SI{0.52e-4}{\square\meter\per\second}
+1. \SI{3.6e-5}{\square\meter\per\second}\\
+2. \SI{5.2e-5}{\square\meter\per\second}
 
 
 
@@ -151,17 +152,41 @@ Estimate the mass diffusivity of the following gases in air at 350 K and 1 atm p
 \end{itemize}
 
 \subsection*{Challenge}
-Considering air in a closed, cylindrical container with its axis vertical and with opposite ends maintained at different temperatures. Assume the total pressure of the air is uniform throughout the container.
+Considering air as a mixture of two gases ($O_2$ and $N_2$), situated in a closed, cylindrical container with its axis vertical and with opposite ends maintained at different temperatures. Assume the total pressure of the air is uniform throughout the container.
 
 Consider each of the following conditions:
 
-1. The bottom surface is colder than the top surface\\
-2. The top surface is colder than the bottom surface
+A) The bottom surface is colder than the top surface\\
+B) The top surface is colder than the bottom surface
 
-For each condition, write a few sentences explaining a) if there is any motion of the air and b) if mass transfer occurs.
+\vspace{1cm}
+1. Add the points for the following \emph{true} statements:
+
+\textbf{1 point} There is motion of the air in case (A)
+
+\textbf{2 points} There is no motion of the air in case (A)
+
+\textbf{4 points} There is motion of the air in case (B)
+
+\textbf{8 points} There is no motion of the air in case (B)
+
+\textbf{16 points} There is diffusive mass transfer inside the cylinder in case (A)
+
+\textbf{32 points} There is no diffusive mass transfer inside the cylinder in case (A)
+
+\textbf{64 points} There is diffusive mass transfer inside the cylinder in case (B)
+
+\textbf{128 points} There is no diffusive mass transfer inside the cylinder in case (B)
+
+\vspace{1cm}
+2. Explain your reasoning
 
 \subsection*{Solutions}
-Please compare your answer with your partner.
+\textbf{1.}\\
+\solint{g}{389975}
+
+\textbf{2.}\\
+Please compare your answer with your partner in class.
 
 
 
@@ -181,20 +206,65 @@ Prove that in a binary mixture, the diffusion coefficient of gas ``A'' in ``B'' 
 
 
 \newpage
+\section{Column evaporation derivation}
+
+\subsection*{Resources}
+\begin{itemize}
+    \item Book 14.2
+\end{itemize}
+
+\subsection*{Challenge}
+Starting from basic knowledge of absolute flux in terms of both diffusion and advection:
+\begin{equation}
+    N''_A = -C D_{AB} \Delta x_A + x_A N''_A
+\end{equation}
+show that evaporation in a stationary column (figure 14.2 in the book) can be given by
+\begin{equation}
+    N''_A = \frac{C D_{AB}}{L} ln
+\end{equation}
+
+
+\subsection*{Solution}
+Compare your answer with your partner
+
+
+
+
+\newpage
 \section{Saturated water vapour pressure}
 
 \subsection*{Resources}
 \begin{itemize}
     \item \url{http://www.chemguide.co.uk/physical/phaseeqia/vapourpress.html}
+    \item \url{https://sciencing.com/water-vapor-pressure-vs-humidity-19402.html}
 \end{itemize}
 
 \subsection*{Challenge}
-Write a few sentences briefly explaining what is meant by ``Saturated Vapour Pressure''.
+\textbf{1)} Write a few sentences briefly explaining what is meant by ``Saturated Vapour Pressure'' and how it is related to ``Relative humidity''.
 
-%2. As you increase in altitude above the earth, does this increase, decrease or stay the same?
+\textbf{2)} Considering an air-water interface at equilibration, if the relative humidity is 50\% and the saturated water density is \SI{0.02}{\kmol\per\cubic\meter}, what is the density of water vapour near the interface? In addition to a numerical answer, explain in a few words the reasoning behind your answer.
+
+\textbf{3)} Under the same conditions as part (2), what is the mole-fraction of water vapour above the surface? In addition to a numerical answer, explain in a few words the reasoning behind your answer.
+
+\textbf{4)} Considering the saturation pressure of water is 0.03 atm, what is the mole-fraction of water vapour in the air at 1 atm?
 
 \subsection*{Solution}
-Compare your answer with your partner
+\textbf{1)}\\
+Compare your answer with your partner.
+
+\textbf{2)}\\
+(Units: \si{\kmol\per\cubic\meter})\\
+\soltwodp{a}{9bb791}
+
+Compare your reasoning with your partner.
+
+\textbf{3)}\\
+\soltwodp{b}{06ac46}
+
+Compare your reasoning with your partner.
+
+\textbf{4)}\\
+\soltwodp{c}{f2a860}
 
 
 
@@ -204,29 +274,22 @@ Compare your answer with your partner
 
 \subsection*{Resources}
 \begin{itemize}
-    \item Book 14.2 (be sure to follow the derivation of column evaporation)
+    \item Book 14.2
 \end{itemize}
 
 \subsection*{Challenge}
 In your challenge log, work through example 14.2 (you do not need to include the ``comments'' part in your challenge log).
 
 
-%NT: Could add a quick challenge about relative humidity and molar fraction, to test understanding of comment below (turning comment into challenge)
-% NT: Build pan evaporation up more slowly. Walk through it step by step with challenges.
-% NT: People use conversion to 300K from 298 in book - just set problem at 298K for something.
-% eg, how to get gradient from length and difference in mole fraction
+
 
 \newpage
 \section{Evaporation pan}
 
 \subsection*{Resources}
 \begin{itemize}
-    \item Book 14.2, Tables A-6 and A-8
-    \item Challenges in Appendix A
+    \item Book 14.2, Table A-8
 \end{itemize}
-
-\subsection*{Comments}
-You have studied that the molar fraction of species $i$ ($x_i$) can be calculated directly from the ratio of molar densities ($C_i/C$) or equivalently through Dalton's law ($p_i/p$). In the case where $p$ is the saturation partial pressure of water vapour (ie, $p_{\text{wv}}/p_{\text{wv},\text{sat}}$), the molar fraction $x_{\text{wv}}$ is equivalent to the relative humidity.
 
 \subsection*{Challenge}
 Evaporation pans like the one shown are used to measure the rate of evaporation of water in a local area.
@@ -234,17 +297,17 @@ Evaporation pans like the one shown are used to measure the rate of evaporation 
 \includegraphics[height=8cm]{evappan}
 \emph{(image: \href{https://commons.wikimedia.org/wiki/File:Evaporation_Pan.jpg}{Bidgee, Wikipedia)}}
 
-An evaporation pan is placed in a location with an ambient air temperature of \SI{300}{\kelvin} and relative humidity of 25\%. The pan contains water at the same temperature as the surrounding air. The pan has a diameter of \SI{20}{\cm} and height of \SI{160}{\mm}, and it starts half-full of water.
+An evaporation pan is placed in a location with an ambient air temperature of \SI{298}{\kelvin} and relative humidity of 25\%. The pan contains water at the same temperature as the surrounding air. The pan has a diameter of \SI{20}{\cm} and height of \SI{160}{\mm}, and it starts half-full of water.
 
 1. Assuming only diffusive mass transport, what is the initial evaporation rate?
 
 2. Including the effects of advection, what is the initial evaporation rate?
 
-%3. Determine how long it takes for all the water to evaporate.
+(The saturation pressure of water at \SI{298}{\kelvin} is \SI{0.03531}{\bar}, and its specific volume at an atmospheric pressure of  1 atm is \SI{39.13}{\meter\cubed\per\kilogram}.)
 
 \subsection*{Solution}
 1. \SI{1.087e-8}{\kilo\mol\per\second}\\
-2. \SI{1.108e-8}{\kilo\mol\per\second}
+2. \SI{1.116e-8}{\kilo\mol\per\second}
 
 
 
@@ -261,18 +324,23 @@ An evaporation pan is placed in a location with an ambient air temperature of \S
 \subsection*{Challenge}
 \begin{enumerate}
     \item Briefly explain what is meant by a stationary medium.
-    \item Considering a stationary medium of 3 species ``A'', ``B'' and ``C'', if the flux of species ``A'' is \SI{2}{\kmol\per\square\meter\per\second} and ``B'' is \SI{-8}{\kmol\per\square\meter\per\second}, what is the flux of species ``C''?
+    \item Considering a stationary medium of 3 species ``A'', ``B'' and ``C'' with equal molar concentration, if the flux of species ``A'' is \SI{2}{\kmol\per\square\meter\per\second} and ``B'' is \SI{-8}{\kmol\per\square\meter\per\second}, what is the flux of species ``C''?
     \item Considering a binary system of atoms ``A'' and ``B'' with concentration \SI{5}{\kmol\per\cubic\meter} and \SI{10}{\kmol\per\cubic\meter} respectively, if the molar velocity of species ``A'' is \SI{2}{\meter\per\second}, what is the molar velocity of species ``B''?
 \end{enumerate}
 
 
 
 \subsection*{Solutions}
-1. Please compare your answer with your partner
+\textbf{1.}\\
+Please compare your answer with your partner.
 
-2. (enter to two decimal places in units of \si{\kmol\per\square\meter\per\second}) \hash{g}{2c32d8}
+\textbf{2.}\\
+(Units: \si{\kmol\per\square\meter})\\
+\solint{g}{4a4314}
 
-3. (enter to two decimal places in units of \si{\meter\per\second}) \hash{h}{3ccbb4}
+\textbf{3.}\\
+(Units: \si{\meter\per\second})\\
+\soltwodp{h}{5ba818}
 
 
 
@@ -303,22 +371,16 @@ Compare your answer with your partner
 \end{itemize}
 
 \subsection*{Challenge}
-The example in section 14.4.3 talks of steady state conditions.
-
 1. Write a sentence or two explaining what is meant by steady-state conditions in this context.
 
 2. What is $\delta J(x) / \delta t$ at any given position $x$ under a steady-state condition?
 
 \subsection*{Solutions}
-1. Please compare your answer with your partner
+\textbf{1.}\\
+Please compare your answer with your partner
 
-2.\\
-X = Your solution\\
-Form: Decimal, to 1 decimal place\\
-Place the indicated letter in front of the number\\
-Example: aX where $X=42.5$ is entered as \href{http://www.wolframalpha.com/input/?i=md5+hash+of+\%22a42.5\%22}{a42.5}
-
-hash of aX = 9497cd
+\textbf{2.}\\
+\soltwodp{a}{690969}
 
 
 
