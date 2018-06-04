@@ -203,7 +203,7 @@ Prove that in a binary mixture, the diffusion coefficient of gas ``A'' in ``B'' 
 
 
 
-\iffalse
+
 \newpage
 \section{Column evaporation derivation}
 
@@ -219,8 +219,9 @@ Starting from basic knowledge of absolute flux in terms of both diffusion and ad
 \end{equation}
 show that evaporation in a stationary column (figure 14.2 in the book) can be given by
 \begin{equation}
-    N''_A = \frac{C D_{AB}}{L} ln
+    N''_A = \frac{C D_{AB}}{L} ln \left( \frac{1-x_{A,L}}{1-x_{A,0}} \right)
 \end{equation}
+where $x_{A,L}$ and $x_{A,0}$ are the molar fractions at the top and bottom the column, respectively.
 
 
 \subsection*{Solution}
@@ -361,6 +362,7 @@ Compare your answer with your partner
 
 
 
+\iffalse
 \newpage
 \section{Steady-state definition}
 
